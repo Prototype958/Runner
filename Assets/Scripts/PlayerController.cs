@@ -4,8 +4,14 @@ public class PlayerController : MonoBehaviour
 {
     public int Score = 0;
 
+    [Range(1, 10)]
+    public float JumpVelocity = 5;
+
     private Rigidbody2D rb;
     [SerializeField] private bool _isGrounded = true;
+
+    private float _fallMultiplier = 1.5f;
+    private float _lowJumpMultiplier = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -16,10 +22,32 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && _isGrounded)
+        Jump();
+
+        // if (Input.GetKey(KeyCode.Space))
+        // {
+        //     rb.AddForce(Vector2.up * 10);
+
+        //     if (Input.GetKeyUp(KeyCode.Space)){
+        //         _isGrounded = false;
+        //     }
+        // }
+    }
+
+    private void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            _isGrounded = false;
-            rb.AddForce(Vector2.up * 500);
+            rb.velocity = Vector2.up * JumpVelocity;
+        }
+
+        if (rb.velocity.y < 0)
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * _fallMultiplier * Time.deltaTime;
+        }
+        else if (rb.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * _lowJumpMultiplier * Time.deltaTime;
         }
     }
 
