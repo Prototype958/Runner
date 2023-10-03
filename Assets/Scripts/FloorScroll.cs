@@ -6,6 +6,6 @@ public class FloorScroll : MonoBehaviour
     {
         float width = gameObject.GetComponent<SpriteRenderer>().bounds.size.x;
         float curPosX = gameObject.transform.position.x;
-        gameObject.transform.position = new Vector2(curPosX + (width * 2), gameObject.transform.position.y);
+        gameObject.transform.position = new Vector2(curPosX + (width * 2) - .5f, gameObject.transform.position.y);
     }
 }

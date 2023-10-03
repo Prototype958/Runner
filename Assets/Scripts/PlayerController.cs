@@ -4,18 +4,21 @@ public class PlayerController : MonoBehaviour
 {
     public int Score = 0;
 
-    [Range(1, 10)]
-    public float JumpVelocity = 5;
+    [Range(1, 15)]
+    public float JumpVelocity;
 
     private Rigidbody2D rb;
-    [SerializeField] private bool _isGrounded = true;
+    [SerializeField] private LayerMask groundMask;
 
-    private float _fallMultiplier = 1.5f;
-    private float _lowJumpMultiplier = 1f;
+    private float _fallMultiplier = 2f;
+    private float _lowJumpMultiplier = 1.5f;
 
     // Start is called before the first frame update
     void Start()
     {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 60;
+
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -23,20 +26,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Jump();
-
-        // if (Input.GetKey(KeyCode.Space))
-        // {
-        //     rb.AddForce(Vector2.up * 10);
-
-        //     if (Input.GetKeyUp(KeyCode.Space)){
-        //         _isGrounded = false;
-        //     }
-        // }
     }
 
     private void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
             rb.velocity = Vector2.up * JumpVelocity;
         }
@@ -51,12 +45,23 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
+    private bool isGrounded()
     {
-        if (col.gameObject.GetComponent<FloorScroll>())
-        {
-            _isGrounded = true;
-        }
+        CapsuleCollider2D col = gameObject.GetComponent<CapsuleCollider2D>();
+        float groundSensitivity = .25f;
+
+        RaycastHit2D boxHit = Physics2D.BoxCast(col.bounds.center, col.size, 0f, Vector2.down, groundSensitivity, groundMask);
+        Color boxColor;
+        if (boxHit.collider != null)
+            boxColor = Color.green;
+        else
+            boxColor = Color.red;
+
+        Debug.DrawRay(col.bounds.center + new Vector3(col.bounds.extents.x, 0), Vector2.down * (col.bounds.extents.y + groundSensitivity), boxColor);
+        Debug.DrawRay(col.bounds.center - new Vector3(col.bounds.extents.x, 0), Vector2.down * (col.bounds.extents.y + groundSensitivity), boxColor);
+        Debug.DrawRay(col.bounds.center - new Vector3(col.bounds.extents.x, col.bounds.extents.y + groundSensitivity), Vector2.right * col.bounds.extents.y, boxColor);
+
+        return boxHit.collider != null;
     }
 
     public void UpdateScore(GameObject obj)

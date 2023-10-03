@@ -6,8 +6,10 @@ public class ScrollingObject : MonoBehaviour
 {
     private Transform _player;
 
-    private float _boostSpd = 0.025f;
-    private float _speed = 0.015f;
+    //private float _boostSpd = 0.025f;
+    //private float _speed = 0.015f;
+    private float _boostSpd = 7f;
+    private float _speed = 5f;
     [SerializeField] private bool _isMoveable = true;
 
     private void Start()
@@ -33,13 +35,13 @@ public class ScrollingObject : MonoBehaviour
     private void Scroll()
     {
         if (_isMoveable)
-            gameObject.transform.Translate(Vector2.left * _speed);
+            gameObject.transform.Translate(Vector2.left * _speed * Time.deltaTime);
     }
 
     private void ScrollBoost()
     {
         if (_isMoveable)
-            gameObject.transform.Translate(Vector2.left * _boostSpd);
+            gameObject.transform.Translate(Vector2.left * _boostSpd * Time.deltaTime);
     }
 
     private void StopMove()
