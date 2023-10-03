@@ -39,9 +39,13 @@ public class AirSpawnNodes : MonoBehaviour
     {
         _randPattern = Random.Range(0, CoinPatterns.Count);
 
-        if (CoinPatterns[_randPattern].name.ContainsInsensitive("large"))
+        if (CoinPatterns[_randPattern].name.ContainsInsensitive("Row3"))
         {
-            // Large pattern is too big to spawn at the lowest nodes
+            // Larger patterns are too big to spawn at the lowest nodes
+            _randNode = Random.Range(0, _nodes.Count - 3);
+        }
+        else if (CoinPatterns[_randPattern].name.ContainsInsensitive("Row2"))
+        {
             _randNode = Random.Range(0, _nodes.Count - 2);
         }
         else

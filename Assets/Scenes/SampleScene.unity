@@ -1097,6 +1097,8 @@ MonoBehaviour:
   - {fileID: 3099980855899453380, guid: fff7e86d0ec972544a09aa0f46712f93, type: 3}
   - {fileID: 3873658495760070733, guid: 7c926b8924e553c449b0ed8275955d0f, type: 3}
   - {fileID: 4297889662888803254, guid: b422589e2b6200e4398a7aabe60e8ac3, type: 3}
+  - {fileID: 852462948508532631, guid: abf81af11326bed448e4f50f262dc558, type: 3}
+  - {fileID: 3099980855899453380, guid: 2817ab5ebfdaf3b4f8ffa29384894e65, type: 3}
   Coin: {fileID: 6586299675359568004, guid: 14800f41148adae4e8df579fca56cb9f, type: 3}
 --- !u!4 &1752049725
 Transform:

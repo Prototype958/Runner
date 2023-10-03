@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7261564683779724609}
   - component: {fileID: 2088460150185770211}
   m_Layer: 0
-  m_Name: Coin Pattern1
+  m_Name: Row1Coins1
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -145,7 +145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8856729933207907998, guid: 14800f41148adae4e8df579fca56cb9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.73
+      value: 3.246
       objectReference: {fileID: 0}
     - target: {fileID: 8856729933207907998, guid: 14800f41148adae4e8df579fca56cb9f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -211,7 +211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8856729933207907998, guid: 14800f41148adae4e8df579fca56cb9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.48
+      value: 2.167
       objectReference: {fileID: 0}
     - target: {fileID: 8856729933207907998, guid: 14800f41148adae4e8df579fca56cb9f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -277,7 +277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8856729933207907998, guid: 14800f41148adae4e8df579fca56cb9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.23
+      value: 1.088
       objectReference: {fileID: 0}
     - target: {fileID: 8856729933207907998, guid: 14800f41148adae4e8df579fca56cb9f, type: 3}
       propertyPath: m_LocalPosition.y
