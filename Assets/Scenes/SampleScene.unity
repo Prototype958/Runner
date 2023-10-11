@@ -782,7 +782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &663578769
 Transform:
   m_ObjectHideFlags: 0
@@ -972,6 +972,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 128
+  weapon: {fileID: 1295931457282794597, guid: 2cbf5a1af5a4e7645944d31a6ba454c1, type: 3}
 --- !u!70 &752682723
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1843,7 +1844,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056059186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.71, y: -3.43, z: 0}
+  m_LocalPosition: {x: 13.71, y: -3.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

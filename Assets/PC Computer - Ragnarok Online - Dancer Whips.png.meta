@@ -1,0 +1,1908 @@
+fileFormatVersion: 2
+guid: c0e573c20ff3e7145914eab3f43c79a6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 252
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c82b4f36b29f6341a98b4d08ff1d086
+      internalID: 421760026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 250
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f405aebe872a14786e7153d7d52f35
+      internalID: 234923128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 252
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a151e2da60fff64f958474a25404e99
+      internalID: -81343117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 248
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ecd4064d8cefa4fb2bc1c7d358a1c5
+      internalID: 929895707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 239
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231b9dfd849265c41bf3d8df621a24b9
+      internalID: 806936777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 238
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ff047908da95749971c1a33474235b
+      internalID: 1351146429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 237
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b45e1bf6dcd22409153464b155c1c0
+      internalID: -1277825431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 251
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c67a0a528df8e84fbe7d8651e3e85bb
+      internalID: 1147426521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_8
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 254
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b18d5f61c541924197529061edfdc55
+      internalID: 471185612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_9
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 251
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8915594070d22e43ad692857effd87c
+      internalID: 553066249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_10
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 250
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c951a23644b672a47a3ec8d8a2ec23c5
+      internalID: 727217353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 252
+        width: 59
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7ad16a1c11df245851ddf14b26f7f6
+      internalID: -1355775092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_12
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 252
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54c54e5f2df8314296c225214871034
+      internalID: 1869760752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_13
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 267
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfca36331080b540a5fe003e1a896e1
+      internalID: 1817608752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_14
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 267
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7577edc85a2171f43b6cb6511f18992e
+      internalID: 992440816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_15
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 267
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb19eafd7d973443b829e9d6db2c30a
+      internalID: -1189427347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_16
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 267
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce90f2b42babaf64b99f1d7cc30bb0c2
+      internalID: 67677749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_17
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 267
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d64ca833350a7c4ab9703bc99dfcfc1
+      internalID: -1458883442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_18
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 267
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a78bae4810b79d4da15905ad477ce66
+      internalID: 518577145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_19
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 267
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937b1a790fae2124a8f23aa0743fdbba
+      internalID: -565742568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_20
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 258
+        width: 76
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14563909f9a6cc64c8125ca4415c33bb
+      internalID: -1718948486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 241
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8008c2872a7404faf20791d24c11b3
+      internalID: 473223364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_22
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 241
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d17c38104ef9344fab0136197b6bb23
+      internalID: 983940071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_23
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 241
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3239a42bf6b2e48a5368d8d2c3fabb
+      internalID: 94383734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_24
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 236
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7f3cdba93202645b62e31abad97b55
+      internalID: -413065943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 179
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c283981fdf1d64580f76607cad271a
+      internalID: 1107303399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_26
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 177
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482e3a7227639b74db5cd93fb9f07ecb
+      internalID: -678491124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 178
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c0d0f13b26ff444a9041c48ba59b75
+      internalID: -883298909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_28
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 175
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250d1f998f3fdcf4aa115d043f5f628d
+      internalID: -2072840717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 166
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b020e1702583f614c9e163d5e86edade
+      internalID: -848027025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_30
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 165
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f006929f1e9a76a4b9301658e2b0b79f
+      internalID: 385472643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_31
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 164
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae182b28cae62e4ebf4fa1b50853ac0
+      internalID: -1393656349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_32
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 178
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96fc71db6108ea4387965c2567d7961
+      internalID: 1511751866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_33
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 181
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae87025ef6cc234685cdde85d0a6cda
+      internalID: -1769310771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_34
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 178
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6b4ec390283054aa79f2cc4ce708e9
+      internalID: -899307482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_35
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 177
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171cdbeb587d11249ac22b17422d56ea
+      internalID: 2142177177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_36
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 185
+        width: 76
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9a644029570b94784dc6fb39dd3c7a
+      internalID: 560145628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_37
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 179
+        width: 59
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976c692b6efa5a6419c31a3337c19cca
+      internalID: 965007245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_38
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 179
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9473161be7d91d94eb4bdf628415e92b
+      internalID: 1318279157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_39
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 184
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7c708513368b94ea7619575d060378
+      internalID: 1427201463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_40
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 184
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df8447cae4dc804b9fa7992308b01ba
+      internalID: 966481642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_41
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 184
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c675e03996f9846b71bfeb5aba999f
+      internalID: -754326286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_42
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 179
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ff76151e033744a3bf317215a6b4f
+      internalID: -733352174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_43
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 111
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f91661ef00d0e4eb8b1b82ae7f7207
+      internalID: -1665118418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_44
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 110
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11a9c35853257c4a9fef3a07dcdbef4
+      internalID: 127900913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 110
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf56f07990c3ff45affcffc5512df8d
+      internalID: 1048860004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_46
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 107
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d2c1cef8f33fb43a9bf9f668a1844d
+      internalID: -1882724984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_47
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 98
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533d292148f809e478c6b4271ce8e5a9
+      internalID: 1376082815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_48
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 97
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e489f9ea0fbc847b7b59b83312d4c6
+      internalID: -1616175180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_49
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 96
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfd6574dcc698747b25a6b323d1ee61
+      internalID: -1755325573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_50
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 109
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f8f5fb601ccef44a17926d471cdace
+      internalID: -308702304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_51
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 113
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96382765b9d35ec4188b8971dd0fccc9
+      internalID: -1117176746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_52
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 110
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b11e9b4a619a649a8e032b9b434552
+      internalID: 1982850544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_53
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 109
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbdfa37a327b8e4b9e0f2d0df6642db
+      internalID: 1896600823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_54
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 117
+        width: 76
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304f4ae74ece3f549beb86981c74f83d
+      internalID: -952552185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_55
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 111
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8af89f99a71ea409f9da03ea7e16e8
+      internalID: 333958264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_56
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 111
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e057fb9e3f88f144b9b7398cef0d1dee
+      internalID: -1102622676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 117
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ebfd83a4381554cb0893b50814ef23
+      internalID: 1047870305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_58
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 117
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f443ad30c453d5341ab1939bc289faa3
+      internalID: 1456665110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_59
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 117
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ff23dfa3e5fea4a83614625e9bc49c
+      internalID: -1412204123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_60
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 117
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a03d4362d388845b80db7344c38c5a
+      internalID: 548327327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_61
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 27
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c559987c3d6cc499ddae85a8e70dff
+      internalID: -1718147499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_62
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 26
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e444fec8eaa134fbe709f83fc06907
+      internalID: -1323315463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_63
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 27
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4391d619c06dfea41b70a932d2d4470f
+      internalID: -2144626360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_64
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 24
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf9c1bfaedc93c41aaad1a55fca6064
+      internalID: -2064134553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_65
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 15
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400d0e95916a29b408d875729183dda4
+      internalID: -197299924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_66
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 11
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93872bf25b4031149be72dedc984cf1d
+      internalID: 1882128137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_67
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 6
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefcb62882ff15d43ba61bf84c93b0f3
+      internalID: 1728582521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_68
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 25
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c5f7b0bff0d534ba814e779f8b5f2b
+      internalID: -1539702508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_69
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 29
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599f480061918ee4eb51a2be137cc112
+      internalID: -92465776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_70
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 27
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6d1674c80bd744c8fa499b27b21378
+      internalID: -1895015801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_71
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 26
+        width: 75
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71d6c8850ee33149a66b50b69cee311
+      internalID: 1234902508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_72
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 32
+        width: 82
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5889cead493838c4db1ccd37dc73f43e
+      internalID: -532572111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_73
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 27
+        width: 67
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de906520408c5a844aee0905cc0e5f6d
+      internalID: -1854616347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_74
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 27
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799122e38aeebda4a83cfa7873fe77d8
+      internalID: 1196541054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_75
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 32
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0d1f3c8592ba14a84be42f4eb8f595
+      internalID: 497317336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_76
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 32
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a55735dc4d5e499158b2de5ac5ffe
+      internalID: -1824354454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_77
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 32
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2ecf12d8e5f0243a3627217aed7505
+      internalID: -8484722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_78
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 32
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f48e606dcca7574ea7610523e6eea26
+      internalID: -171514663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Dancer Whips_79
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 32
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a3e532da33ff94ea29c2afb9084231
+      internalID: 1733210232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Ragnarok Online - Dancer Whips_18: 518577145
+      PC Computer - Ragnarok Online - Dancer Whips_44: 127900913
+      PC Computer - Ragnarok Online - Dancer Whips_36: 560145628
+      PC Computer - Ragnarok Online - Dancer Whips_48: -1616175180
+      PC Computer - Ragnarok Online - Dancer Whips_68: -1539702508
+      PC Computer - Ragnarok Online - Dancer Whips_55: 333958264
+      PC Computer - Ragnarok Online - Dancer Whips_47: 1376082815
+      PC Computer - Ragnarok Online - Dancer Whips_66: 1882128137
+      PC Computer - Ragnarok Online - Dancer Whips_9: 553066249
+      PC Computer - Ragnarok Online - Dancer Whips_13: 1817608752
+      PC Computer - Ragnarok Online - Dancer Whips_22: 983940071
+      PC Computer - Ragnarok Online - Dancer Whips_35: 2142177177
+      PC Computer - Ragnarok Online - Dancer Whips_29: -848027025
+      PC Computer - Ragnarok Online - Dancer Whips_61: -1718147499
+      PC Computer - Ragnarok Online - Dancer Whips_79: 1733210232
+      PC Computer - Ragnarok Online - Dancer Whips_27: -883298909
+      PC Computer - Ragnarok Online - Dancer Whips_65: -197299924
+      PC Computer - Ragnarok Online - Dancer Whips_26: -678491124
+      PC Computer - Ragnarok Online - Dancer Whips_33: -1769310771
+      PC Computer - Ragnarok Online - Dancer Whips_30: 385472643
+      PC Computer - Ragnarok Online - Dancer Whips_73: -1854616347
+      PC Computer - Ragnarok Online - Dancer Whips_56: -1102622676
+      PC Computer - Ragnarok Online - Dancer Whips_69: -92465776
+      PC Computer - Ragnarok Online - Dancer Whips_28: -2072840717
+      PC Computer - Ragnarok Online - Dancer Whips_23: 94383734
+      PC Computer - Ragnarok Online - Dancer Whips_15: -1189427347
+      PC Computer - Ragnarok Online - Dancer Whips_25: 1107303399
+      PC Computer - Ragnarok Online - Dancer Whips_77: -8484722
+      PC Computer - Ragnarok Online - Dancer Whips_32: 1511751866
+      PC Computer - Ragnarok Online - Dancer Whips_43: -1665118418
+      PC Computer - Ragnarok Online - Dancer Whips_64: -2064134553
+      PC Computer - Ragnarok Online - Dancer Whips_8: 471185612
+      PC Computer - Ragnarok Online - Dancer Whips_19: -565742568
+      PC Computer - Ragnarok Online - Dancer Whips_71: 1234902508
+      PC Computer - Ragnarok Online - Dancer Whips_62: -1323315463
+      PC Computer - Ragnarok Online - Dancer Whips_11: -1355775092
+      PC Computer - Ragnarok Online - Dancer Whips_34: -899307482
+      PC Computer - Ragnarok Online - Dancer Whips_10: 727217353
+      PC Computer - Ragnarok Online - Dancer Whips_60: 548327327
+      PC Computer - Ragnarok Online - Dancer Whips_6: -1277825431
+      PC Computer - Ragnarok Online - Dancer Whips_12: 1869760752
+      PC Computer - Ragnarok Online - Dancer Whips_21: 473223364
+      PC Computer - Ragnarok Online - Dancer Whips_3: 929895707
+      PC Computer - Ragnarok Online - Dancer Whips_49: -1755325573
+      PC Computer - Ragnarok Online - Dancer Whips_16: 67677749
+      PC Computer - Ragnarok Online - Dancer Whips_20: -1718948486
+      PC Computer - Ragnarok Online - Dancer Whips_1: 234923128
+      PC Computer - Ragnarok Online - Dancer Whips_67: 1728582521
+      PC Computer - Ragnarok Online - Dancer Whips_42: -733352174
+      PC Computer - Ragnarok Online - Dancer Whips_63: -2144626360
+      PC Computer - Ragnarok Online - Dancer Whips_7: 1147426521
+      PC Computer - Ragnarok Online - Dancer Whips_39: 1427201463
+      PC Computer - Ragnarok Online - Dancer Whips_37: 965007245
+      PC Computer - Ragnarok Online - Dancer Whips_75: 497317336
+      PC Computer - Ragnarok Online - Dancer Whips_50: -308702304
+      PC Computer - Ragnarok Online - Dancer Whips_40: 966481642
+      PC Computer - Ragnarok Online - Dancer Whips_70: -1895015801
+      PC Computer - Ragnarok Online - Dancer Whips_14: 992440816
+      PC Computer - Ragnarok Online - Dancer Whips_2: -81343117
+      PC Computer - Ragnarok Online - Dancer Whips_45: 1048860004
+      PC Computer - Ragnarok Online - Dancer Whips_31: -1393656349
+      PC Computer - Ragnarok Online - Dancer Whips_53: 1896600823
+      PC Computer - Ragnarok Online - Dancer Whips_78: -171514663
+      PC Computer - Ragnarok Online - Dancer Whips_38: 1318279157
+      PC Computer - Ragnarok Online - Dancer Whips_54: -952552185
+      PC Computer - Ragnarok Online - Dancer Whips_51: -1117176746
+      PC Computer - Ragnarok Online - Dancer Whips_4: 806936777
+      PC Computer - Ragnarok Online - Dancer Whips_24: -413065943
+      PC Computer - Ragnarok Online - Dancer Whips_74: 1196541054
+      PC Computer - Ragnarok Online - Dancer Whips_52: 1982850544
+      PC Computer - Ragnarok Online - Dancer Whips_17: -1458883442
+      PC Computer - Ragnarok Online - Dancer Whips_59: -1412204123
+      PC Computer - Ragnarok Online - Dancer Whips_5: 1351146429
+      PC Computer - Ragnarok Online - Dancer Whips_72: -532572111
+      PC Computer - Ragnarok Online - Dancer Whips_57: 1047870305
+      PC Computer - Ragnarok Online - Dancer Whips_58: 1456665110
+      PC Computer - Ragnarok Online - Dancer Whips_76: -1824354454
+      PC Computer - Ragnarok Online - Dancer Whips_0: 421760026
+      PC Computer - Ragnarok Online - Dancer Whips_41: -754326286
+      PC Computer - Ragnarok Online - Dancer Whips_46: -1882724984
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

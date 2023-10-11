@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     private float _lowJumpMultiplier = 1.5f;
 
     public GameObject weapon;
+    private bool _isDeployed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Jump();
+        Attack();
     }
 
     private void Jump()
@@ -45,6 +47,15 @@ public class PlayerController : MonoBehaviour
         else if (rb.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * _lowJumpMultiplier * Time.deltaTime;
+        }
+    }
+
+    private void Attack()
+    {
+        if (!_isDeployed && Input.GetKeyDown(KeyCode.LeftAlt))
+        {
+            //_isDeployed = true;
+            Instantiate(weapon, new Vector3(gameObject.transform.position.x + .5f, gameObject.transform.position.y, -1.5f), gameObject.transform.rotation);
         }
     }
 
