@@ -1,3 +1,4 @@
+using System.Security;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -12,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     private float _fallMultiplier = 2f;
     private float _lowJumpMultiplier = 1.5f;
+
+    public GameObject weapon;
 
     // Start is called before the first frame update
     void Start()

@@ -11,7 +11,7 @@ public class AirSpawnNodes : MonoBehaviour
     public Coin Coin;
 
     private List<Transform> _nodes;
-    private float _spawnTimer = .15f;
+    private float _spawnTimer = .05f;
     private bool _spawning = false;
 
     private int _randPattern;

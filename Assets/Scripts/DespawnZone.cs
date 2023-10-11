@@ -8,7 +8,8 @@ public class DespawnZone : MonoBehaviour
     {
         if (col.gameObject.GetComponent<FloorScroll>())
             col.gameObject.GetComponent<FloorScroll>().ResetPosition();
-        else if (col.gameObject.GetComponent<Coin>())
+        else if (col.gameObject.GetComponent<Coin>() ||
+                 col.gameObject.GetComponent<Enemy>())
             Destroy(col.gameObject);
     }
 }

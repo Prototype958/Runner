@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEditor.ShortcutManagement;
 using UnityEngine;
@@ -6,11 +7,9 @@ public class ScrollingObject : MonoBehaviour
 {
     private Transform _player;
 
-    //private float _boostSpd = 0.025f;
-    //private float _speed = 0.015f;
     private float _boostSpd = 7f;
     private float _speed = 5f;
-    [SerializeField] private bool _isMoveable = true;
+    private bool _isMoveable = true;
 
     private void Start()
     {
@@ -28,8 +27,29 @@ public class ScrollingObject : MonoBehaviour
             Scroll();
         }
 
-        if (Vector2.Distance(new Vector2(_player.position.x, 0), new Vector2(gameObject.transform.position.x, 0)) < 0.05f)
-            StopMove();
+        CheckStopMove();
+    }
+
+    public void DisableMove()
+    {
+        _isMoveable = false;
+    }
+
+    public void TogggleMove()
+    {
+        _isMoveable = !_isMoveable;
+    }
+
+    private void CheckStopMove()
+    {
+        if (gameObject.GetComponent<PowerUp>() && _isMoveable)
+        {
+            if (Vector2.Distance(new Vector2(_player.position.x, 0), new Vector2(gameObject.transform.position.x, 0)) < 0.05f)
+            {
+                _isMoveable = false;
+                StartCoroutine(RestartMoveCountDown());
+            }
+        }
     }
 
     private void Scroll()
@@ -42,15 +62,6 @@ public class ScrollingObject : MonoBehaviour
     {
         if (_isMoveable)
             gameObject.transform.Translate(Vector2.left * _boostSpd * Time.deltaTime);
-    }
-
-    private void StopMove()
-    {
-        if (gameObject.GetComponent<PowerUp>() && _isMoveable)
-        {
-            _isMoveable = false;
-            StartCoroutine(RestartMoveCountDown());
-        }
     }
 
     private IEnumerator RestartMoveCountDown()
